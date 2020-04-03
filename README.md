@@ -27,12 +27,6 @@
 - Supports Netfilter TCP redirecting
 - Comprehensive HTTP API
 
-## tips for openclash /openclash机场节点使用建议：  
-1. 全局设置下载客户端，更新内核。  如果需要ssr，不要在线更新内核，要手动更新clashr内核。  
-2. 配置文件订阅，新增订阅->应用配置，此时openclash会启动，如果失败，日志查原因。  
-3. 如果是N1盒子做旁路由，需要添加nat动态转换的防火墙规则。而如果启动openclash发现YouTube无法连接而Google可以连接，需要重启防火墙。  
-4. DNS设置建议不要随便改，默认劫持设置即可。这样的话，需要关闭其他DNS设置，比如openwrt可能内置acc网络加速，其中的DNS加速要关闭，有dns插件也关闭，除非你很清楚怎么配置，避免和openclash的DNS设置冲突。
-
 ## Install
 
 Clash Requires Go >= 1.13. You can build it from source:
